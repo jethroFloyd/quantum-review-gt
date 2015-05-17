@@ -50,7 +50,7 @@ For a fully quantum digital signature scheme that takes classical information bu
 
 As of now, having done a survey of the publications in public domain about quantum security of hash-based schemes, and on provable security of schemes in the quantum setting where the adversary has access to a powerful quantum computer and it can be assumed that he can manipulate known quantum algorithms to his advantage, it would be prudent to try and provide a formal proof in the above mentioned setting for KSI. For this, we can use the works referenced in the previous section to first assume a ``reasonable'' security of the underlying hash function, and then move on to analyze the protocol itself. The work will be, on the lines of Fang Song's research, to scrutinize each aspect of the infrastructure, and look at existing classical security proofs. Then, we decide if that particular ``game'' should remain exactly the same in a quantum setting (\textit{game-preserved}) or if it should be updated, and after updating if we can say that the adversary has no significant advantage over the protocol (\textit{game-updated}). This series of new and migrated games will give us a complete formal proof. 
 
-\begin{thebibliography}{20}
+\begin{thebibliography}{40}
 \bibitem[Gro96]{gro} A fast quantum mechanical algorithm for database search, Lov K. Grover
 \bibitem[Bra97]{bra} Quantum Algorithm for the Collision Problem, Gilles Brassard, et al.
 \bibitem[Boy96]{boy} Tight Bounds on Quantum Searching, M. Boyer, et al.
@@ -59,7 +59,7 @@ As of now, having done a survey of the publications in public domain about quant
 \bibitem[Aar02]{aar} Quantum lower bound for the collision problem, Scott Aaronson
 \bibitem[NCB11]{NCB} Improving the efficiency of Generalized Birthday Attacks against certain structured cryptosystems, Robert Niebuhr, Pierre-Louis Cayrel, and Johannes Buchmann.
 \bibitem[Gar06]{lui} On the security and the efficiency of the Merkle signature scheme, Luis Carlos Coronado Garcıa 
-\bibitem[FAN13] {fan}A Note on Quantum Security for Post-Quantum Cryptography, Fang Song.
+\bibitem[FAN13]{fan}A Note on Quantum Security for Post-Quantum Cryptography, Fang Song.
 \bibitem[FAV13]{abl}  Quantum Hashing, Farid Ablayev, Alexander Vasiliev.
 \end{thebibliography}
 \end{document}
