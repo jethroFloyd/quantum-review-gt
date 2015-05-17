@@ -1,3 +1,12 @@
 Expected Outcome: Provable Quantum Security of KSI 
 
-Current Work: 
+There are three main claims:
+
+- Known quantum collision finders are no faster than classical ones.
+- If $A_1$ and $A_2$ are both quantum computations using classical inputs, the proofs still remain valid.
+- If the advice $a$ is quantum information, it seems reasonable to assume practical security.
+
+
+Observations and Inputs:
+
+- Majority of the work regarding hash collisions in a quantum scenario is, in my opinion, not of much use to us at this point of time. Consider this: for a classical hash function being attacked by a classical adversary, the GBA provides a bound at 2^{\frac{n}{2}}. 
