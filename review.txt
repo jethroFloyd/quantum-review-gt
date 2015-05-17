@@ -1,0 +1,3 @@
+Expected Outcome: Provable Quantum Security of KSI 
+
+Current Work: 
