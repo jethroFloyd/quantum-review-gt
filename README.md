@@ -1,3 +1,3 @@
 # quantum-review-gt
 Updated with Week 3 Report
-Ritobroto Maitra
+Ritobroto Maitra, 2015
